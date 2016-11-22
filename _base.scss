@@ -1,0 +1,72 @@
+html {
+  background: url(images/background-home.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.title {
+  margin: 20% auto 0 auto;
+
+  h1 {
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 1px 1px #ccc;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -50px;
+    letter-spacing: 2px;
+  }  
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+  ul {
+    margin-right: 20px;
+    color: #fff;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 15px;
+      font-family: 'Bangers', cursive;
+    }
+  }
+}
+  
+.about {
+  width: 80%;
+  height: 100%;
+  background-color: rgba(221,221,221, 0.7);
+  margin: 100px auto;
+  padding: 10px;
+  text-align: center;
+  
+  &.tourism {
+
+    img {
+      width: 48%;
+    }
+
+    p {
+      width: 48%;
+      display: inline-block;
+    }
+  }
+}
